@@ -1,0 +1,23 @@
+projeto-mlops/
+├── .github/
+│   └── workflows/
+│       └── ci-cd.yml
+├── env/
+├── data/
+│   ├── bronze/
+│   │   ├── nafld1.csv
+│   │   └── nafld2.csv
+│   ├── silver/
+│   │   └── nafld_merged.parquet
+│   └── gold/
+├── notebooks/
+│   ├── kaggle_download.ipynb
+│   ├── data_cleaning.ipynb
+│   └── inicio.ipynb
+├── scripts/
+│   ├── capture_logs.py
+│   ├── test_env.py
+│   ├── test_example.py
+│   └── transfer_files.py
+├── .gitignore
+└── requirements.txt
