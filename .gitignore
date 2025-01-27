@@ -7,7 +7,24 @@ venv/
 minio-data/
 minio-data/.minio.sys/
 
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
 # Ignore specific files
 *.bin.bkp
 *.meta
 __pycache__/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore arquivos de log
+*.log
+
+# Ignore arquivos temporários
+*.tmp
+*.bak
+*.swp
+
+# Ignore arquivos de configuração específicos
+config.yaml
