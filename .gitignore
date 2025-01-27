@@ -10,3 +10,4 @@ minio-data/.minio.sys/
 # Ignore specific files
 *.bin.bkp
 *.meta
+__pycache__/
