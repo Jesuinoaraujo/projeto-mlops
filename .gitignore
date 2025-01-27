@@ -1,0 +1,12 @@
+# Ignore environment folders
+env/
+venv/
+.virtualenv/
+
+# Ignore MinIO data and configuration folders
+minio-data/
+minio-data/.minio.sys/
+
+# Ignore specific files
+*.bin.bkp
+*.meta

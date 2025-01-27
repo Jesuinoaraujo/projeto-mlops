@@ -1,0 +1,18 @@
+# Dependências do MinIO
+boto3==1.20.24
+
+# Bibliotecas de manipulação de dados
+pandas>=2.2.3
+numpy>=2.2.2
+
+# Bibliotecas de visualização
+matplotlib>=3.5.1
+
+# Bibliotecas de machine learning
+scikit-learn>=1.6.1
+
+# Dependências adicionais
+kaggle>=1.5.12
+
+# Dependências do Jupyter Notebook Lab
+jupyterlab>=4.0.5
