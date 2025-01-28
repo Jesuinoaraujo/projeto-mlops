@@ -28,3 +28,6 @@ __pycache__/
 
 # Ignore arquivos de configuração específicos
 config.yaml
+
+# Ignore environment configuration files
+.env
